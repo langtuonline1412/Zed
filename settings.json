@@ -6,6 +6,8 @@
     },
     "theme_overrides": {
         "Aura Dark": {
+            "editor.document_highlight.read_background": "#00000000",
+            "editor.document_highlight.write_background": "#00000000",
             "border.variant": "#15141c",
             "border": "#15141c",
             "title_bar.background": "#15141c",
@@ -71,6 +73,7 @@
     "gutter": {
         "min_line_number_digits": 0,
         "folds": false,
+        "runnables": false,
     },
     "indent_guides": {
         "enabled": false,
@@ -95,7 +98,7 @@
     },
     "tab_size": 2,
     "preferred_line_length": 100,
-    "cursor_blink": true,
+    "cursor_blink": false,
     "cursor_shape": "block",
     "selection_highlight": false,
     "drag_and_drop_selection": {
